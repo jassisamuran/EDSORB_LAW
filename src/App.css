@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.ft-2 ul li {
+  list-style: none;
+}
+.maindataContainer ul li {
+  list-style-type: none;
+}
