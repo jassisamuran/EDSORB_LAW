@@ -4,7 +4,7 @@ import { Col, Container, Row } from "react-bootstrap";
 const Together_grow = () => {
   return (
     <div style={{}}>
-      <div style={{ color: "white", marginBottom: "40px", marginTop: "20px" }}>
+      <div style={{ color: "black", marginBottom: "40px", marginTop: "20px" }}>
         <h3>
           TOGETHER WE
           <span> Formula</span>
@@ -19,12 +19,12 @@ const Together_grow = () => {
       </div>
       <div className="one-all-containers">
         <Container>
-          <Row style={{ color: "white" }}>
+          <Row>
             <Col
               xs={12}
               md={3}
               style={{ marginBottom: "20px" }}
-              className="se1 mr-md-5 mr-md-5-all wrap-text "
+              className="se1 mr-md-5 mr-md-5-all   "
             >
               <h4>
                 <i class="fa-solid fa-briefcase"></i>Quality Work
@@ -37,7 +37,7 @@ const Together_grow = () => {
               xs={12}
               md={3}
               style={{ marginBottom: "20px" }}
-              className="se1 mr-md-5 mr-md-5-all wrap-text"
+              className="se1 mr-md-5 mr-md-5-all  "
             >
               <h4>
                 <i class="fa-regular fa-clock"></i>Timely Response
@@ -50,7 +50,7 @@ const Together_grow = () => {
               xs={12}
               md={3}
               style={{ marginBottom: "20px" }}
-              className="se1 mr-md-5 mr-md-5-all wrap-text"
+              className="se1 mr-md-5 mr-md-5-all  "
             >
               <h4>
                 <i class="fa-solid fa-brain"></i> Creative Minds
@@ -60,12 +60,12 @@ const Together_grow = () => {
               posts that leave a lasting impression. conversions.
             </Col>
           </Row>
-          <Row style={{ color: "white" }}>
+          <Row>
             <Col
               xs={12}
               md={5}
               style={{ marginBottom: "20px" }}
-              className="se1 mr-md-5 mr-md-5-all wrap-text"
+              className="se1 mr-md-5 mr-md-5-all  "
             >
               <h4>
                 <i class="fa-solid fa-truck"></i> Proven Track
@@ -78,7 +78,7 @@ const Together_grow = () => {
               xs={12}
               md={5}
               style={{ marginBottom: "20px" }}
-              className="se mr-md-5mr-md-5-all"
+              className="se1 mr-md-5mr-md-5-all"
             >
               <h4>
                 <i class="fa-solid fa-hand-holding-dollar"></i>Affordable

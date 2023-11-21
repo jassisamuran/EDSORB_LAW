@@ -26,30 +26,20 @@ const Header = () => {
               <Nav.Link href="#pricing" style={{ color: "white" }}>
                 <i class="fa-solid fa-microphone fa-beat-fade"></i>
               </Nav.Link>
-              {/* <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
-                <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.2">
-                  Another action
-                </NavDropdown.Item>
-                <NavDropdown.Item href="#action/3.3">
-                  Something
-                </NavDropdown.Item>
-                <NavDropdown.Divider />
-                <NavDropdown.Item href="#action/3.4">
-                  Separated link
-                </NavDropdown.Item>
-              </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link href="#deets" style={{ color: "white" }}>
+              <Nav.Link
+                href="#deets"
+                style={{ color: "white", textDecoration: "none" }}
+              >
                 <i class="fa-brands fa-apple fa-xl"></i>&nbsp;&nbsp;
                 <i class="fa-solid fa-play fa-xl"></i>&nbsp;&nbsp;
-                <a href="#" style={{ color: "white" }}>
+                <a href="#" style={{ color: "white", textDecoration: "none" }}>
                   Login
                 </a>
               </Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
-                <a href="#" style={{ color: "white" }}>
+                <a href="#" style={{ color: "white", textDecoration: "none" }}>
                   Sign Up
                 </a>
               </Nav.Link>

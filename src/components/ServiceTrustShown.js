@@ -1,42 +1,21 @@
 import React from "react";
-import { Carousel, Container } from "react-bootstrap";
+import { Carousel, Container, Image } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
+import I1 from "../images/why.png";
 const ServiceTrustShown = () => {
   return (
-    <Container
-      className="fixed-size-container"
-      style={{ marginBottom: "50px" }}
-    >
-      <Carousel style={{ height: "70vh" }}>
+    <div style={{ width: "400px" }}>
+      <Carousel pause="hover" className="bg-dark" slide={true}>
         <Carousel.Item>
-          {/* Content for the first slide */}
-          <img
-            className="d-block w-100"
-            src="https://placekitten.com/800/400" // Replace with your image URL
-            alt="First slide"
-          />
+          {/* <Link to={`/product/${product._id}`}> */}
+          <Image src={I1} alt={"one"} fluid />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h2>fsfsfs fsf js fs f</h2>
           </Carousel.Caption>
+          {/* </Link> */}
         </Carousel.Item>
-
-        <Carousel.Item>
-          {/* Content for the second slide */}
-          <img
-            className="d-block w-100"
-            src="https://placekitten.com/800/401" // Replace with your image URL
-            alt="Second slide"
-          />
-          <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </Carousel.Caption>
-        </Carousel.Item>
-
-        {/* Add more Carousel.Items for additional slides */}
       </Carousel>
-    </Container>
+    </div>
   );
 };
 

@@ -1,10 +1,9 @@
 import React from "react";
 import Together_grow from "./Together_grow";
-
+import { Col, Container, Row } from "react-bootstrap";
 const TogetherContainer = () => {
   return (
-    <div style={{ backgroundColor: "grey", marginBottom: "10px" }}>
-      {/* <TogetherContainer /> */}
+    <div style={{ marginBottom: "10px" }}>
       <Together_grow />
     </div>
   );

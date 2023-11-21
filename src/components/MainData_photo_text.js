@@ -4,7 +4,7 @@ import i1 from "../images/Y.png";
 
 const MainData_photo_text = () => {
   return (
-    <div style={{ marginTop: "30px", background: "grey" }}>
+    <div style={{ marginTop: "0px", background: "grey" }}>
       <Container fluid>
         <Row className="justify-content-center align-items-center">
           {/* Box for Text and Data */}
