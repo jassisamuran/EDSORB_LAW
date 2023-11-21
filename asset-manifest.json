@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/EDSORB_LAW/static/css/main.ee64856b.css",
+    "main.js": "/EDSORB_LAW/static/js/main.f341ce62.js",
+    "static/js/787.b66c4d81.chunk.js": "/EDSORB_LAW/static/js/787.b66c4d81.chunk.js",
+    "static/media/fa-solid-900.ttf": "/EDSORB_LAW/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
+    "static/media/fa-brands-400.ttf": "/EDSORB_LAW/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
+    "static/media/Y.png": "/EDSORB_LAW/static/media/Y.a05efae30fd446218eda.png",
+    "static/media/fa-solid-900.woff2": "/EDSORB_LAW/static/media/fa-solid-900.b6879d41b0852f01ed5b.woff2",
+    "static/media/why.png": "/EDSORB_LAW/static/media/why.b8a236fb8b37ede789cc.png",
+    "static/media/fa-brands-400.woff2": "/EDSORB_LAW/static/media/fa-brands-400.878f31251d960bd6266f.woff2",
+    "static/media/fa-regular-400.ttf": "/EDSORB_LAW/static/media/fa-regular-400.50701fbb8177c2dde530.ttf",
+    "static/media/Question-Bank-510.jpg": "/EDSORB_LAW/static/media/Question-Bank-510.38984d8206e0c8e53822.jpg",
+    "static/media/fa-regular-400.woff2": "/EDSORB_LAW/static/media/fa-regular-400.b041b1fa4fe241b23445.woff2",
+    "static/media/law_attraction.webp": "/EDSORB_LAW/static/media/law_attraction.5de8ace69e3918e28271.webp",
+    "static/media/fa-v4compatibility.ttf": "/EDSORB_LAW/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
+    "static/media/fa-v4compatibility.woff2": "/EDSORB_LAW/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
+    "static/media/logo.svg": "/EDSORB_LAW/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/EDSORB_LAW/index.html",
+    "main.ee64856b.css.map": "/EDSORB_LAW/static/css/main.ee64856b.css.map",
+    "main.f341ce62.js.map": "/EDSORB_LAW/static/js/main.f341ce62.js.map",
+    "787.b66c4d81.chunk.js.map": "/EDSORB_LAW/static/js/787.b66c4d81.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee64856b.css",
+    "static/js/main.f341ce62.js"
+  ]
+}
