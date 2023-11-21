@@ -4,7 +4,7 @@ import Footerupward from "./Footerupward";
 
 const Footer = () => {
   return (
-    <div style={{ color: "white", backgroundColor: "black" }}>
+    <div style={{ color: "white", backgroundColor: "grey" }}>
       <Footerupward />
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container className="justify-content-center">

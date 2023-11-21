@@ -4,12 +4,12 @@ import i1 from "../images/Y.png";
 
 const MainData_photo_text = () => {
   return (
-    <div style={{ marginTop: "30px" }}>
+    <div style={{ marginTop: "30px", background: "grey" }}>
       <Container fluid>
         <Row className="justify-content-center align-items-center">
           {/* Box for Text and Data */}
           <Col md={6}>
-            <div className="bg-black text-white rounded-3 p-3">
+            <div className=" text-white rounded-3 p-3">
               {/* Your text and data goes here */}
               <h2 className="text-center">
                 Turn Your Judiciary{" "}
@@ -32,14 +32,14 @@ const MainData_photo_text = () => {
           </Col>
           {/* Box for Image */}
           <Col md={6} xs={12}>
-            <div className="bg-black rounded-3 p-3">
+            <div className=" rounded-3 p-3">
               {/* Your image goes here */}
               <img src={i1} alt="Your Image" className="img-fluid" />
             </div>
           </Col>
         </Row>
       </Container>
-      <p className="bg-black text-white w-100 mt-2 p-3">
+      <p className="text-white w-100 mt-2 p-3">
         Why Edzorb Law App is ❤ by Over 10,000+ Users. Read Reviews
       </p>
     </div>

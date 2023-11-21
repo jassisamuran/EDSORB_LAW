@@ -41,25 +41,25 @@ const Footerupward = () => {
             <h3 style={{ color: "red" }}>Popular Courses</h3>
             <ul>
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/" style={{ color: "white" }}>
                   Marks Enhancement Programme
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/" style={{ color: "white" }}>
                   Elite Plan
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/" style={{ color: "white" }}>
                   FastTrack Crash Courses
                 </a>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/">
+                <a className="nav-link" href="/" style={{ color: "white" }}>
                   For Free Notes Join &nbsp;
                   <i class="fa-brands fa-telegram fa-shake"></i>
                 </a>

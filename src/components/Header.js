@@ -8,19 +8,23 @@ const Header = () => {
         collapseOnSelect
         expand="lg"
         className=""
-        style={{ color: "white" }}
+        style={{ color: "white", backgroundColor: "gray" }}
       >
         <Container>
-          <Navbar.Brand href="#home">
+          <Navbar.Brand href="#home" style={{ color: "white" }}>
             <i class="fa-solid fa-gavel fa-shake"></i>&nbsp;Edzorb Law
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="me-auto">
-              <Nav.Link href="#features">Premium+</Nav.Link>
-              <Nav.Link href="#pricing">Blogs</Nav.Link>
-              <Nav.Link href="#pricing">
-                <i className="bi bi-mic-fill"></i>Podcast
+              <Nav.Link href="#features" style={{ color: "white" }}>
+                Premium+
+              </Nav.Link>
+              <Nav.Link href="#pricing" style={{ color: "white" }}>
+                Blogs
+              </Nav.Link>
+              <Nav.Link href="#pricing" style={{ color: "white" }}>
+                <i class="fa-solid fa-microphone fa-beat-fade"></i>
               </Nav.Link>
               {/* <NavDropdown title="Dropdown" id="collapsible-nav-dropdown">
                 <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
@@ -37,13 +41,17 @@ const Header = () => {
               </NavDropdown> */}
             </Nav>
             <Nav>
-              <Nav.Link href="#deets">
+              <Nav.Link href="#deets" style={{ color: "white" }}>
                 <i class="fa-brands fa-apple fa-xl"></i>&nbsp;&nbsp;
                 <i class="fa-solid fa-play fa-xl"></i>&nbsp;&nbsp;
-                <a href="#">Login</a>
+                <a href="#" style={{ color: "white" }}>
+                  Login
+                </a>
               </Nav.Link>
               <Nav.Link eventKey={2} href="#memes">
-                <a href="#">Sign Up</a>
+                <a href="#" style={{ color: "white" }}>
+                  Sign Up
+                </a>
               </Nav.Link>
             </Nav>
           </Navbar.Collapse>
